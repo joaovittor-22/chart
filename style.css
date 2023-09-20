@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#container {
+  width:300px;
+  
+}
+
+.legenda{
+  width:300px;
+  font-weight:bold;
+  color:grey;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+
+label{
+ float:right;   
+ margin-right: 20px;
+}
+
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+    padding: 0.5em;
+}
+
+.teste{
+  font-size:16px;
+  text-align: right;
+}
+
+.teste2{
+  font-size:16px;
+  width:500px;
+  margin-left:500px;
+}
+
+@keyframes ball-animation{
+    from {
+        right: -20%;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes c2-animation{
+    from {
+        bottom: 10px;
+    }
+    to {
+        bottom: 80%;
+    }
+}
+
+@keyframes c3-animation{
+    from {
+        top: 0px;
+    }
+    to {
+        top: 80%;
+    }
+}
