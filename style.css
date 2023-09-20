@@ -35,17 +35,6 @@ label{
     padding: 0.5em;
 }
 
-.teste{
-  font-size:16px;
-  text-align: right;
-}
-
-.teste2{
-  font-size:16px;
-  width:500px;
-  margin-left:500px;
-}
-
 @keyframes ball-animation{
     from {
         right: -20%;
