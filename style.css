@@ -35,29 +35,3 @@ label{
     padding: 0.5em;
 }
 
-@keyframes ball-animation{
-    from {
-        right: -20%;
-    }
-    to {
-        right: 100%;
-    }
-}
-
-@keyframes c2-animation{
-    from {
-        bottom: 10px;
-    }
-    to {
-        bottom: 80%;
-    }
-}
-
-@keyframes c3-animation{
-    from {
-        top: 0px;
-    }
-    to {
-        top: 80%;
-    }
-}
